@@ -1,0 +1,26 @@
+.campo{
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-image: linear-gradient(#bd09b7, #6b4cf5);
+    box-shadow:  5px 5px 3px 1px gray;
+    color: white; 
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+
+}
+
+#box{
+    padding: 7px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    right: 15px;
+
+}
