@@ -2,26 +2,26 @@
 <html>
 <head>
     <link rel="stylesheet" href="./styles.css">
-    <title>LOGIN</title>
+    <title>Login</title>
 </head>
 <body>
     <form class="campo" action="registro" method="post">
-      <h1>LOGIN</h1>
+      <h1>Login</h1>
     <br>
         <label for="email">Email</label>
         <br>
-        <input type="email" name="email" placeholder="example@mail.com" required />
+        <input type="email" name="email" class="box" placeholder="example@mail.com" required />
     <br>
     <br>
     <label for="Password">Password</label>
     <br>
-        <input type="password" name="password" id="box" required/>
+        <input type="password" name="password" class="box" required/>
     <br>
     <br>
     <label>
         Genero
         <br>
-        <select name="genero">
+        <select class="box" name="genero">
             <option value="disable selected">Selecciona uno</option>
             <option value="black">Femenino</option>
             <option value="black">Masculino</option>
@@ -30,13 +30,13 @@
         <br>
         <br>
         <label>
-            <input type="checkbox" name="seleccion" value="terminos y condiciones">Acepta terminos y condiciones
+            <input type="checkbox" name="seleccion"  value="terminos y condiciones">Acepta terminos y condiciones
         </label>
 
         <br>
         <br>
     </label>
-    <button type="submit">Enviar</button>
+    <button id="boton1" type="submit">Ingresar</button>
     </form>
 </body>
 </html>
